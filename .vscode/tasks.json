@@ -31,8 +31,10 @@
 				"-fdiagnostics-color=always",
 				"-g",
 				"${workspaceFolder}/main.c",
+				"${workspaceFolder}/utilities.c",
 				"-o",
 				"${workspaceFolder}/bin/${workspaceFolderBasename}",
+				"-lmenu",
 				"-lncurses"
 			],
 			"options": {
